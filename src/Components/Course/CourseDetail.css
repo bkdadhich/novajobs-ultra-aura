@@ -1,0 +1,4 @@
+#cardcourse:hover{
+     @apply relative flex items-center justify-center m-3 overflow-hidden shadow-xl rounded-2xl;
+      
+}
