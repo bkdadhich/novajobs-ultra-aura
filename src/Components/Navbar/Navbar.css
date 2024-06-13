@@ -1,3 +1,77 @@
+
 nav{
-    background-color: #245d51;
+    background-color: #245c51;
+    
+    color: black;
 }
+#navicons{
+    background-color: #245c51;
+    
+}
+#navlinks{
+  background-color: rgba(255, 255, 255, 0.537);
+}
+#navicons i:hover{
+  background-color:#C59035 ;
+}
+#btnnav{
+    background-color:#C59035 ;
+} 
+.navbar {
+    position: relative;
+    z-index: 10;
+    
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .relative {
+    position: relative;
+  }
+  
+  .navbar .relative .absolute {
+    display: none;
+    position: absolute;
+    left: 0;
+    /* top: 100%; */
+  }
+  
+  .navbar .relative:hover .absolute,
+  .navbar .relative .absolute:hover {
+    display: block;
+  }
+  
+  .navbar .md:hidden .relative .absolute {
+    display: none;
+  }
+  
+  .navbar .md:hidden .relative:hover .absolute,
+  .navbar .md:hidden .relative .absolute:hover {
+    display: block;
+  }
+  
+  .navbar .text-white:hover {
+    color: #d1d1d1;
+  }
+  
+  .navbar .bg-gray-800 {
+    background-color: #2d3748;
+    
+  }
+  
+  .navbar .hover\\:bg-blue-700:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .navbar .hover\\:bg-gray-200:hover {
+    background-color: #edf2f7;
+  }
+  
+  .navbar .text-gray-800 {
+    color: #2d3748;
+  }
+  

@@ -1,0 +1,64 @@
+@keyframes slideInTop {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOutTop {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes slideInBottom {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOutBottom {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+  
+  .top,
+  .bottom {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  .top {
+    top: 10%;
+    left: 15%;
+    animation-name: slideInTop;
+  }
+  
+  .bottom {
+    bottom: 29%;
+    right: 10%;
+    animation-name: slideInBottom;
+  }
+  #iocnsdiv i{
+    /* background-color: #245d51; */
+    background-color: #343456;
+  }
+  #btnnav{
+    background-color: #ff6652;
+}

@@ -1,0 +1,8 @@
+#bgimage{
+    background-image: url("./loginbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg{
+    background-color: #245c51;
+}

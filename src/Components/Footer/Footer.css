@@ -1,5 +1,7 @@
 #footer{
     background-image: url("https://e-pora-next.vercel.app/assets/img/bg/shape-bg-02.png");
     background-repeat: no-repeat;
-    background-color: #245d51;
+    background-color: #245c51;
+    /* background-color: #343456; */
+    /* background-color: rgba(255, 255, 255, 0.9); */
 }

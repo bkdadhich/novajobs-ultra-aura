@@ -1,6 +1,15 @@
 #homefirstpart{
     background-image: url("https://e-pora-next.vercel.app/assets/img/banner/banner-01.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     overflow-x: hidden;
+    background-position:top;
+}
+#btnhome{
+    /* background-color: #ff6652; */
+    background-color: #C59035;
+}
+#spanele{
+    /* color: #ff6652; */
+    color: #C59035;
 }

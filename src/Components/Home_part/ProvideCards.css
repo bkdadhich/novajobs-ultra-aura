@@ -4,3 +4,10 @@
     background-size: cover;
     
 }
+.card-container:hover .lift-up {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+  }
+  #imgprovide{
+    background-color: #343456;
+  }
